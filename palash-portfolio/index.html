@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Palash Joshi — Full Stack Developer portfolio">
+  <title>Palash Joshi | Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="site-shell">
+    <header class="topbar">
+      <a class="brand" href="#home" aria-label="Palash Joshi home"><span class="brand-mark">P</span><span>palash<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+      <nav class="nav" id="navMenu">
+        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact" class="nav-cta">Let's talk <span>↗</span></a>
+      </nav>
+      <button class="theme-toggle" id="themeToggle" aria-label="Toggle color theme" title="Toggle theme">☼</button>
+    </header>
+
+    <main>
+      <section class="hero section" id="home">
+        <div class="hero-copy reveal">
+          <div class="availability"><span class="pulse"></span> AVAILABLE FOR OPPORTUNITIES</div>
+          <p class="eyebrow">HELLO, I'M</p>
+          <h1>Palash<br><span>Joshi.</span></h1>
+          <h2>Full Stack Developer <span class="accent">/</span> Creative Problem Solver</h2>
+          <p class="hero-description">I enjoy turning ideas into useful digital experiences. I build for the web, explore new technologies and keep learning by creating.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">Explore my work <span>↗</span></a>
+            <a class="text-link" href="#contact">Get in touch <span>→</span></a>
+          </div>
+          <div class="hero-meta"><span>BASED IN INDIA</span><span class="meta-line"></span><span>BUILDING WITH CURIOSITY</span></div>
+        </div>
+        <div class="hero-art reveal" aria-label="Decorative developer illustration">
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <div class="art-card">
+            <div class="art-card-top"><span></span><span></span><span></span><small>developer.js</small></div>
+            <div class="code-lines">
+              <p><i>01</i> <b>const</b> developer = {</p>
+              <p><i>02</i> &nbsp; name: <em>'Palash'</em>,</p>
+              <p><i>03</i> &nbsp; role: <em>'Full Stack'</em>,</p>
+              <p><i>04</i> &nbsp; curious: <strong>true</strong>,</p>
+              <p><i>05</i> &nbsp; building: <em>'the future'</em></p>
+              <p><i>06</i> };</p>
+              <p class="code-comment">// always learning ✦</p>
+            </div>
+            <div class="art-sticker">IDEAS<br>INTO<br><span>REALITY.</span></div>
+          </div>
+          <div class="floating-chip chip-one">✳ Creative</div><div class="floating-chip chip-two">{" "} &lt;/&gt; Code</div>
+          <div class="hero-orb">P<span>.</span></div>
+        </div>
+        <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+      </section>
+
+      <section class="section about-section" id="about">
+        <div class="section-heading reveal"><p class="eyebrow">01 / ABOUT ME</p><h2>A little about<br><span>what I do.</span></h2></div>
+        <div class="about-content reveal">
+          <p class="about-lead">I’m a developer who likes making technology feel simple, useful and enjoyable.</p>
+          <p>I explore both frontend and backend development, experiment with different tools, and learn by building real projects. I believe good work comes from curiosity, consistency and attention to detail.</p>
+          <div class="stats">
+            <div><strong>05<span>+</span></strong><small>TECHNOLOGIES</small></div>
+            <div><strong>02<span>+</span></strong><small>FEATURED PROJECTS</small></div>
+            <div><strong>∞</strong><small>IDEAS TO EXPLORE</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills-section" id="skills">
+        <div class="section-heading reveal"><p class="eyebrow">02 / MY TOOLKIT</p><h2>Tools I use to<br><span>make things happen.</span></h2></div>
+        <div class="skills-grid reveal">
+          <article class="skill-card"><span class="skill-icon">Go</span><h3>Go</h3><p>Backend development</p></article>
+          <article class="skill-card"><span class="skill-icon">PHP</span><h3>PHP</h3><p>Web applications</p></article>
+          <article class="skill-card"><span class="skill-icon">Py</span><h3>Python</h3><p>Programming & logic</p></article>
+          <article class="skill-card"><span class="skill-icon">U</span><h3>Unity</h3><p>Interactive experiences</p></article>
+          <article class="skill-card"><span class="skill-icon">D</span><h3>Dart</h3><p>Application development</p></article>
+          <article class="skill-card skill-note"><span>ALWAYS</span><h3>Learning<br>something new.</h3><p>Curiosity is part of the toolkit.</p></article>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="projects">
+        <div class="projects-heading reveal"><div class="section-heading"><p class="eyebrow">03 / SELECTED WORK</p><h2>Things I've<br><span>been building.</span></h2></div><p class="projects-intro">A couple of ideas brought to life through code, planning and experimentation.</p></div>
+        <div class="project-list">
+          <article class="project-card reveal">
+            <div class="project-visual xp-visual"><div class="visual-top"><span>PROJECT / 01</span><span>STUDENT PLATFORM</span></div><div class="xp-wordmark">XP<span>FARM</span><b>✳</b></div><div class="xp-sub">LEVEL UP YOUR STUDENT LIFE.</div><div class="visual-tags"><span>Community</span><span>Career</span><span>Learning</span></div></div>
+            <div class="project-info"><p class="project-number">01 — STUDENT ECOSYSTEM</p><h3>XP FARM</h3><p>A student-focused super platform concept bringing career guidance, jobs, internships, skill learning and community features into one place.</p><div class="tag-row"><span>Product concept</span><span>Web platform</span><span>Student community</span></div><a class="project-link" href="#contact">Discuss this project <span>↗</span></a></div>
+          </article>
+          <article class="project-card project-reverse reveal">
+            <div class="project-visual career-visual"><div class="visual-top"><span>PROJECT / 02</span><span>CAREER GUIDANCE</span></div><div class="career-window"><div class="window-dots">● ● ●</div><div class="career-title">Find a career<br><i>that fits you.</i></div><div class="career-bars"><span></span><span></span><span></span></div><div class="career-pill">YOUR NEXT CHAPTER →</div></div></div>
+            <div class="project-info"><p class="project-number">02 — GUIDANCE PORTAL</p><h3>CAREERPATH</h3><p>A career guidance portal concept designed to help students explore career directions through their education, skills, experience and interests.</p><div class="tag-row"><span>Career guidance</span><span>Assessment</span><span>Student portal</span></div><a class="project-link" href="#contact">Discuss this project <span>↗</span></a></div>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section section" id="contact">
+        <div class="contact-left reveal"><p class="eyebrow">04 / CONTACT</p><h2>Have an idea?<br><span>Let's build it.</span></h2><p>Have a project, collaboration or opportunity in mind? Send me a message.</p><a class="email-link" href="mailto:jpalash087@gmail.com">jpalash087@gmail.com <span>↗</span></a></div>
+        <form class="contact-form reveal" id="contactForm">
+          <label for="visitorName">YOUR NAME</label><input id="visitorName" name="name" type="text" placeholder="Your name" required>
+          <label for="visitorEmail">YOUR EMAIL</label><input id="visitorEmail" name="email" type="email" placeholder="you@example.com" required>
+          <label for="visitorMessage">YOUR MESSAGE</label><textarea id="visitorMessage" name="message" rows="4" placeholder="Tell me what you're thinking..." required></textarea>
+          <button class="button button-primary submit-button" type="submit">Send message <span>↗</span></button>
+          <p class="form-status" id="formStatus" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer"><a class="brand" href="#home"><span class="brand-mark">P</span><span>palash<span class="brand-dot">.</span></span></a><p>Designed & built with curiosity by Palash Joshi.</p><a href="#home" class="back-top">BACK TO TOP ↑</a><small>© <span id="year"></span> PALASH JOSHI</small></footer>
+  </div>
+</body>
+</html>
